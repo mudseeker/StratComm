@@ -1,0 +1,8 @@
+body { margin: 0; font-family: Inter, system-ui, sans-serif; background: #060b1c; color: #f6f7ff; }
+main { max-width: 1000px; margin: 0 auto; padding: 1rem; }
+.panel { background: #121a33; border: 1px solid #2f3b66; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; display: grid; gap: 0.5rem; }
+input, button { padding: 0.5rem; border-radius: 6px; border: 1px solid #3f4a73; }
+button { background: #4b65d6; color: white; cursor: pointer; }
+.map { position: relative; height: 500px; border: 1px solid #2f3b66; border-radius: 8px; background: radial-gradient(circle at center, #1b2952, #070d1f); overflow: hidden; }
+.planet { position: absolute; transform: translate(-50%, -50%); background: #18264c; border: 1px solid #4765c0; border-radius: 999px; width: 90px; height: 90px; display: grid; place-content: center; text-align: center; font-size: 0.75rem; }
+.planet.owned { border-color: #8bf29a; box-shadow: 0 0 12px #8bf29a88; }
